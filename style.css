@@ -1,0 +1,183 @@
+/* Custom Styles */
+
+/* Navbar */
+/* Navbar */
+.navbar {
+    background: rgba(0, 0, 0, 0.5); /* Semi-transparent black background */
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+    backdrop-filter: blur(10px); /* Blurry effect */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Optional: adds a slight shadow for depth */
+}
+
+.navbar-brand, .nav-link {
+    font-weight: bold;
+    color: #fff !important; /* Ensures text remains white */
+}
+
+.nav-link:hover {
+    color: #ff6f61 !important; /* Hover effect for nav links */
+}
+
+/* .navbar {
+    background-color: #343a40;
+}
+
+.navbar-brand {
+    font-weight: bold;
+}
+
+.nav-link {
+    font-size: 18px;
+}
+
+.nav-link:hover {
+    color: #ff6f61 !important;
+} */
+
+/* Hero Section */
+/* .hero {
+    background: url('https://via.placeholder.com/1920x600') center center no-repeat;
+    background-size: cover;
+    color: white;
+    padding: 100px 0;
+} */
+
+/* Hero Section */
+.hero {
+    background: linear-gradient(135deg, #6a0dad, #9b59b6); /* Purple gradient */
+    color: white;
+    padding: 100px 0;
+}
+
+
+.hero h1 {
+    font-size: 3.5rem;
+    font-weight: bold;
+}
+
+.hero p {
+    font-size: 1.25rem;
+}
+
+.hero .btn {
+    padding: 10px 30px;
+    font-size: 1.25rem;
+    border-radius: 50px;
+}
+
+/* Services Section */
+/* .services .card {
+    margin-bottom: 30px;
+}
+
+.services .card-img-top {
+    height: 200px;
+    object-fit: cover;
+} */
+/* Services Section */
+.services .card {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    background: linear-gradient(135deg, #9b59b6, #6a0dad); /* Purple gradient */
+    color: white;
+    border: none; /* Removes the default border */
+    border-radius: 10px; /* Rounded corners for cards */
+}
+
+.services .card:hover {
+    transform: translateY(-10px); /* Hover effect to lift the card */
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1); /* Adds a subtle shadow on hover */
+}
+
+.services .card-body {
+    padding: 30px;
+    background: rgba(0, 0, 0, 0.4); /* Semi-transparent background behind text */
+    border-radius: 10px; /* Rounded corners for inner content */
+    backdrop-filter: blur(8px); /* Adds a blurry glass effect */
+}
+
+.services .card-title {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.services .card-text {
+    font-size: 1rem;
+    line-height: 1.6;
+    margin-top: 15px;
+}
+
+
+/* About Us Section */
+.about {
+    background-color: #f8f9fa;
+}
+
+/* Footer */
+footer {
+    background-color: #343a40;
+    color: white;
+}
+
+footer p {
+    margin: 0;
+}
+
+
+/* Contact Section */
+.contact {
+    padding: 60px 0;
+}
+
+.contact h2 {
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-bottom: 50px;
+}
+
+.contact-form {
+    background: #ffffff;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.contact-form h4 {
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.contact-form .form-control {
+    border-radius: 10px;
+    padding: 12px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+}
+
+.contact-form .form-control:focus {
+    border-color: #6a0dad;
+    box-shadow: 0 0 5px rgba(106, 13, 173, 0.5);
+}
+
+.contact-form button {
+    background-color: #6a0dad;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 25px;
+    cursor: pointer;
+    font-size: 1rem;
+    transition: background-color 0.3s ease;
+}
+
+.contact-form button:hover {
+    background-color: #9b59b6;
+}
+
+.map iframe {
+    border-radius: 10px;
+}
